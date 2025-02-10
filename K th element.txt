@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        int[] array = {10, 20, 30, 40, 50}; 
+        int K = 3; 
+
+        if (K >= 1 && K <= array.length) {
+            System.out.println("The " + K + "-th element is: " + array[K-1]);
+        } else {
+            System.out.println("Invalid K value");
+        }
+    }
+}
+
